@@ -1,0 +1,53 @@
+.aboutus-section {
+  //   padding: 2rem 5rem;
+  background-color: #fff;
+  .heading-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .breadscrumb {
+    padding: 4rem 6rem;
+    background-color: #efefee;
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .bread-heading {
+      font-size: 3rem;
+      color: #2e363a;
+      margin: 0;
+      font-weight: 600;
+    }
+    .active-link {
+      font-size: 1.6rem;
+      text-decoration: none;
+      color: $primary-color;
+      font-weight: bold;
+    }
+    .link {
+      text-decoration: none;
+      font-size: 1.6rem;
+      cursor: none;
+      font-weight: bold;
+    }
+  }
+
+  .flex-container {
+    display: flex;
+   
+    gap: 3rem;
+    padding: 0 3rem 2rem;
+
+    .mission-text-box {
+      h2 {
+        font-size: 2.2rem;
+        margin: 2rem 0 1rem;
+      }
+      li {
+        font-size: 1.6rem;
+        margin-left: 3rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+
+  .breadscrumb {
+    padding: 4rem 6rem;
+    background-color: #efefee;
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .bread-heading {
+      font-size: 3rem;
+      color: #2e363a;
+      margin: 0;
+      font-weight: 600;
+    }
+    .active-link {
+      font-size: 1.6rem;
+      text-decoration: none;
+      color: $primary-color;
+      font-weight: bold;
+    }
+    .link {
+      text-decoration: none;
+      font-size: 1.6rem;
+      cursor: none;
+      font-weight: bold;
+    }
+  }
